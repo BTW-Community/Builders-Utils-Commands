@@ -1,7 +1,7 @@
 package net.dravigen.wait_a_sec;
 
-import btw.AddonHandler;
-import btw.BTWAddon;
+import api.AddonHandler;
+import api.BTWAddon;
 
 public class WaitASecAddon extends BTWAddon {
     private static WaitASecAddon instance;
