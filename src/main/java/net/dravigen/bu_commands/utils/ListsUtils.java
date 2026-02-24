@@ -151,7 +151,7 @@ public class ListsUtils {
 				entitiesMap.put(base, EntityList.getEntityIDFromClass(entityClass));
 			}
 			
-			entitiesMap.put(EntityLightningBolt.class.getSimpleName(), -2);
+			entitiesMap.put("bu.commands.list.lightning", -2);
 		}
 		
 		entitiesMap = sortByValuesInteger(entitiesMap);

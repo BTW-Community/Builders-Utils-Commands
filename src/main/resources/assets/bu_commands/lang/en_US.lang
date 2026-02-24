@@ -11,3 +11,5 @@ bu.commands.commands.kill.player=%s got killed
 bu.commands.commands.kill.item=Killed %d items
 bu.commands.commands.kill.all=Killed %d entities
 bu.commands.commands.kill.usage=/kill <player> <name> [dropLoot] OR /kill entity <name> [dropLoot] OR /kill item OR /kill all
+
+entity.bu.commands.list.lightning.name=Lightning Bolt
