@@ -1,32 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "wait_a_sec",
+  "id": "bu_commands",
   "version": "${version}",
-  "name": "Wait A Sec",
-  "description": "Stop being disturbed while in your inventory",
+  "name": "Builder's Utils: <Commands>",
+  "description": "Improve commands' useability like /give, /kill, /effect, /enchant and add /summon",
   "authors": [
     "DraViGen"
   ],
   "contact": {
-    "homepage": "https://github.com/DraViGen",
-    "sources": "https://github.com/BTW-Community/Wait-A-Sec"
+    "homepage": "https://modrinth.com/project/btw-addon-builders-utils-commands",
+    "sources": "https://github.com/BTW-Community/Builders-Utils-Commands"
   },
   "license": "CC-BY-4.0",
-  "icon": "assets/wait_a_sec/icon.jpg",
+  "icon": "assets/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.dravigen.wait_a_sec.WaitASecMod"
     ],
     "btw:addon": [
-      "net.dravigen.wait_a_sec.WaitASecAddon"
+      "net.dravigen.bu_commands.BU_Commands"
     ]
   },
   "custom": {
     "btw:addon_prefix": "EX"
   },
   "mixins": [
-    "wait_a_sec.mixins.json"
+    "bu_commands.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.19",

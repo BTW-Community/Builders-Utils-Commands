@@ -1,0 +1,13 @@
+bu.commands.commands.give.success=Given %s (#%d) * %d to %s
+bu.commands.commands.give.successMeta=Given %s (#%d/%d) * %d to %s
+
+bu.commands.commands.effect.usage=/effect <player> <set|clear> <effect> [seconds] [amplifier]
+
+bu.commands.commands.summon.success=Successfully summoned entity
+bu.commands.commands.summon.usage=/summon <entity:...> [x/y/z] [count]
+
+bu.commands.commands.kill.entity=Killed %d '%s'
+bu.commands.commands.kill.player=%s got killed
+bu.commands.commands.kill.item=Killed %d items
+bu.commands.commands.kill.all=Killed %d entities
+bu.commands.commands.kill.usage=/kill <player> <name> [dropLoot] OR /kill entity <name> [dropLoot] OR /kill item OR /kill all

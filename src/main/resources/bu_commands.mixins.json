@@ -1,13 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.dravigen.wait_a_sec.mixin",
+  "package": "net.dravigen.bu_commands.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityListMixin"
   ],
   "client": [
-    "GuiContainerMixin",
-    "REMIScreenMixin"
+    "NetClientHandlerMx",
+    "Packet3ChatMx"
   ],
   "injectors": {
     "defaultRequire": 1
