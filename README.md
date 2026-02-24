@@ -33,4 +33,4 @@ Revamp and add useful commands to the game such as using actual items, entities,
 https://github.com/BTW-Community/Builders-Utils-Commands
 
 ## Download: 
-https://modrinth.com/mod/builders-utils-commands/versions
+https://modrinth.com/mod/btw-addon-builders-utils-commands/versions
